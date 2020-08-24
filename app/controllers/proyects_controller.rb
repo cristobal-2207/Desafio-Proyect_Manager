@@ -19,7 +19,6 @@ class ProyectsController < ApplicationController
     else
 
       flash[:error]="Ocurrió un error guardando el proyecto"
-      redirect_to proyects_new_path
       render :new
 
     end
